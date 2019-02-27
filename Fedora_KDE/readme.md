@@ -1,0 +1,26 @@
+## Fedora-KDE
+
+### 基础设置
+
+基础镜像： [Fedora 29 KDE Plasma](https://spins.fedoraproject.org/zh_CN/kde/)
+
+用户名 / 密码 / root 密码：vagrant
+
+镜像地址： [Vagrant Cloud](https://app.vagrantup.com/FlyingOnion/boxes/Fedora_KDE/versions/0.0.1)
+
+### 自定义设置
+#### 系统
+调整终端字体
+
+#### 文件修改及备注：
+~/.ssh/authorized_keys 添加 [vagrant insecure key](https://raw.githubusercontent.com/hashicorp/vagrant/master/keys/vagrant.pub)
+
+/etc/ssh/sshd_config 设置 UseDNS 为 no
+
+#### 安装的软件：
+vim
+
+#### 虚拟机
+禁用音频
+
+双向剪贴板
